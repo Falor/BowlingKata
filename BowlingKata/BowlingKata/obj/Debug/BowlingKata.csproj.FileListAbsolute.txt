@@ -1,0 +1,11 @@
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\BowlingKata.exe.config
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\BowlingKata.exe
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\BowlingKata.pdb
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\nunit.framework.dll
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\nunit.framework.pdb
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\bin\Debug\nunit.framework.xml
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csprojAssemblyReference.cache
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csproj.CoreCompileInputs.cache
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\obj\Debug\BowlingKata.csproj.CopyComplete
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\obj\Debug\BowlingKata.exe
+C:\Users\Falor\Desktop\Bowling\BowlingKata\BowlingKata\obj\Debug\BowlingKata.pdb
