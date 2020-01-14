@@ -13,7 +13,11 @@ namespace BowlingKata
         Line secondLine;
         Line thirdLine;
         Line fourthLine;
+        Line fifthLine;
 
+        /// <summary>
+        /// Sets up test cases for the Unit tests
+        /// </summary>
         [SetUp]
         public void SetUp()
         {
@@ -45,8 +49,15 @@ namespace BowlingKata
             }
             fourthLine = new Line(tmpFrames);
 
+            fifthLine = new Line();
+            for (int i = 0; i < 12; i++)
+            {
+                fifthLine.Add(10, 0);
+            }
         }
-
+        /// <summary>
+        /// Tests the total points for a line
+        /// </summary>
         [Test]
         public void Evaluation()
         {
@@ -54,6 +65,8 @@ namespace BowlingKata
             Assert.AreEqual(10, secondLine.Evaluate());
             Assert.AreEqual(150, thirdLine.Evaluate());
             Assert.AreEqual(300, fourthLine.Evaluate());
+            Assert.AreEqual(300, fifthLine.Evaluate());
+
         }
 
     }

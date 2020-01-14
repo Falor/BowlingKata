@@ -52,8 +52,6 @@
     <Compile Include="Frame.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="LineTest.cs" />
-    <Compile Include="MyMath.cs" />
-    <Compile Include="MyTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -14,7 +14,10 @@ namespace BowlingKata
             get => frames;
         }
 
-
+        public Line()
+        {
+            frames = new List<Frame>();
+        }
 
         public Line(List<Frame> frames)
         {
@@ -22,13 +25,27 @@ namespace BowlingKata
         }
 
 
-
+        /// <summary>
+        /// Adds a new Frame to the Line.
+        /// </summary>
+        /// <param name="firstAttempt"></param>
+        /// <param name="secondAttempt"></param>
+        public void Add(int firstAttempt, int secondAttempt = 0)
+        {
+            if(frames.Count < 13)
+                frames.Add(new Frame(firstAttempt, secondAttempt));
+        }
+   
+        /// <summary>
+        /// Evaluates the total amount of points in the line.
+        /// </summary>
+        /// <returns></returns>
         public int Evaluate()
         {
+            // total sum
             int sum = 0;
+            // sum of current frame
             int tmp = 0;
-
-
 
             for (int i = 0; i < 10; i++)
             {
@@ -55,6 +72,10 @@ namespace BowlingKata
             return sum;
         }
 
+        /// <summary>
+        /// Returns the Line in a presentable manner
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string tmp = "";

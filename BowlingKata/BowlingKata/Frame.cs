@@ -14,16 +14,16 @@ namespace BowlingKata
         {
             get => firstAttempt;
         }
-
+        
         public int SecondAttempt
         {
             get => secondAttempt;
         }
 
-        public Frame(int firstThrow, int secondThrow)
+        public Frame(int firstAttempt, int secondAttempt)
         {
-            firstAttempt = firstThrow;
-            secondAttempt = secondThrow;
+            this.firstAttempt = firstAttempt;
+            this.secondAttempt = secondAttempt;
         }
 
     }
